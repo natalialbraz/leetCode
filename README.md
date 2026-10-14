@@ -1,6 +1,5 @@
 # LeetCode in Kotlin
 
-![tests](https://github.com/<your-username>/leetcode/actions/workflows/tests.yml/badge.svg)
 
 My LeetCode solutions in Kotlin, organized by study plan.
 
