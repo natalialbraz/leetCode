@@ -1,9 +1,9 @@
 package plans.phase1easy.p0001_two_sum
-        val result = IntArray(2)
 
-        class Solution {
-            fun twoSum(nums: IntArray, target: Int): IntArray {
-                var marker = 0
+class Solution {
+    fun twoSum(nums: IntArray, target: Int): IntArray {
+        var marker = 0
+        val result = IntArray(2)
         while (marker <= nums.size) {
             for (i in marker + 1 until nums.size) {
                 if (nums[marker] + nums[i] == target) {
