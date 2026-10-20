@@ -1,4 +1,4 @@
-package plans.phase1easy.p0001_two_sum.p0009_palindrome_number
+package plans.phase1easy.p0009_palindrome_number
 
 class Solution {
     fun isPalindrome(x: Int): Boolean {
