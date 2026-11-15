@@ -13,12 +13,9 @@ class Solution {
                 foundPair = true
                 val between = str.substring(prevIndex + 1, i).count { it == '?' }
                 if (between != 3 ) return "false"
-
             }
             prevDigit = digit
             prevIndex = i
-
-
         }
         return if (foundPair) "true" else "false"
 
