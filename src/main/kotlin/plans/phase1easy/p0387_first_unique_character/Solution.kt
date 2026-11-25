@@ -1,4 +1,4 @@
-package plans.phase1easy.first_unique_character
+package plans.phase1easy.p0387_first_unique_character
 
 class Solution {
     fun firstUniqChar(s: String): Int {
